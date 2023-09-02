@@ -11,10 +11,10 @@ c++ ahorcado
 int main() {
     int x, n, a, error;
     char letra;
-    std::string secreta, vector1, vector2;
+    string secreta, vector1, vector2;
 
-    std::cout << "Ingresa la palabra secreta: ";
-    std::cin >> secreta;
+    cout << "Ingresa la palabra secreta: ";
+    cin >> secreta;
 
     n = secreta.length();
     vector1 = secreta;
@@ -23,12 +23,12 @@ int main() {
     a = 0;
     while (a < 5) {
         for (x = 0; x < n; x++) {
-            std::cout << vector2[x];
+            cout << vector2[x];
         }
-        std::cout << std::endl;
+        cout << std::endl;
 
-        std::cout << "Ingresa una letra: ";
-        std::cin >> letra;
+        cout << "Ingresa una letra: ";
+        cin >> letra;
 
         error = 1;
         for (x = 0; x < n; x++) {
@@ -41,7 +41,7 @@ int main() {
         }
 
         if (vector1 == vector2) {
-            std::cout << "Felicidades, has ganado el juego" << std::endl;
+            cout << "Felicidades, has ganado el juego" << endl;
             a = 6;
         } else {
             if (error == 1) {
@@ -49,15 +49,15 @@ int main() {
             }
 
             if (a == 1) {
-                std::cout << ".\n.\n.\n.\nTe quedan 4 intentos" << std::endl;
+            cout << ".\n.\n.\n.\nTe quedan 4 intentos" << endl;
             } else if (a == 2) {
-                std::cout << ".....\n.\n.\n.\nTe quedan 3 intentos" << std::endl;
+                cout << ".....\n.\n.\n.\nTe quedan 3 intentos" << endl;
             } else if (a == 3) {
-                std::cout << ".....\n.   o\n.\n.\nTe quedan 2 intentos" << std::endl;
+                cout << ".....\n.   o\n.\n.\nTe quedan 2 intentos" << endl;
             } else if (a == 4) {
-                std::cout << ".....\n.   o\n.   ^\n.\nTe quedan 1 intento" << std::endl;
+                cout << ".....\n.   o\n.   ^\n.\nTe quedan 1 intento" << end1;
             } else if (a == 5) {
-                std::cout << ".....\n.   o\n.   ^\n.   ^\nPERDISTE, QUEDASTE AHORCADO" << std::endl;
+                cout << ".....\n.   o\n.   ^\n.   ^\nPERDISTE, QUEDASTE AHORCADO" << endl;
             }
         }
     }
@@ -193,4 +193,4 @@ Algoritmo TernaPitagorica
 		FinPara
 		
 FinAlgoritmo
-......
+
