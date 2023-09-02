@@ -167,7 +167,7 @@ int main() {
         for (b = 1; b <= n - 1; b++) {
             for (c = 1; c <= n - 1; c++) {
                 if (a * a + b * b == c * c) {
-                    std::cout << "terna pitagorica (" << a << "," << b << "," << c << ")" << std::endl;
+                    std::cout << "terna pitagorica (" << a << "," << b << "," << c << ")" << endl;
                 }
             }
         }
