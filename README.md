@@ -148,14 +148,6 @@ FinAlgoritmo
 
 
 
-
-
-
-
-
-
-
-
 c++ pitagoras 
 #include <iostream>
 iusing namespace std;
