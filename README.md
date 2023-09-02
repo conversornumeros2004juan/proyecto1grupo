@@ -6,7 +6,7 @@ grupo: Juan Jose Marroquin Aquino - 7690-23-16390
 
 c++ ahorcado
 #include <iostream>
-iusing namespace std;
+using namespace std;
 
 int main() {
     int x, n, a, error;
