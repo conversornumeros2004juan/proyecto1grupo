@@ -6,7 +6,7 @@ grupo: Juan Jose Marroquin Aquino - 7690-23-16390
 
 c++ ahorcado
 #include <iostream>
-#include <string>
+iusing namespace std;
 
 int main() {
     int x, n, a, error;
@@ -25,7 +25,7 @@ int main() {
         for (x = 0; x < n; x++) {
             cout << vector2[x];
         }
-        cout << std::endl;
+        cout << endl;
 
         cout << "Ingresa una letra: ";
         cin >> letra;
@@ -194,3 +194,10 @@ Algoritmo TernaPitagorica
 		
 FinAlgoritmo
 
+
+
+
+
+enlace de youtube
+https://youtu.be/GpyU0eFDTHc?si=hpDiO4fDWobveM_G
+https://youtu.be/FTOsyBP7xc8?si=ociVC0aelsKg1pR8
