@@ -193,3 +193,4 @@ Algoritmo TernaPitagorica
 		FinPara
 		
 FinAlgoritmo
+......
